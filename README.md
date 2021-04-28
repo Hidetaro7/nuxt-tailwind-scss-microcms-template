@@ -1,4 +1,4 @@
-# instant-app
+# Nuxt.jsにTailwindCSS、microCMS、SCSSを導入した雛形
 
 ## Build Setup
 
