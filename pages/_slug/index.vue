@@ -12,9 +12,9 @@ import axios from 'axios'
 export default {
   async asyncData({ params }) {
     const { data } = await axios.get(
-      `https://tuqulore.microcms.io/api/v1/instant/${params.slug}`,
+      `https://xxxx.microcms.io/api/v1/xxxxx/${params.slug}`,
       {
-        headers: { 'X-API-KEY': 'c1567ee1-ca6e-4d8c-b1c7-0263a1130920' }
+        headers: { 'X-API-KEY': 'XXXXXXXXXXXXXX' }
       }
     )
     console.log(data)
